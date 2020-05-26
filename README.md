@@ -28,7 +28,6 @@
 - [O Agile Testers](#dart-o-agile-testers)
 - [Canais](#movie_camera-canais)
 - [Código de conduta](#rotating_light-código-de-conduta)
-- [Agradecimentos](#heart-agradecimentos)
 - [Licença](#memo-licença)
 
 ## :dart: O Agile Testers
