@@ -33,7 +33,7 @@
 
 ## :dart: O Agile Testers
 
-O Agile Testers está completando 7 anos e nessa caminhada tem contribuido com bastante conteúdo e eventos para a comunidade brasileira de teste e qualidade. Para comemorar nosso aniversário, estamos modificando um pouco as plataformas que usamos para cada vez mais conseguir atingir os profissionais brasileiros trazendo discussões de qualidade e contribuindo para a comunidade.
+O Agile Testers está completando 7 anos e nessa caminhada tem contribuído com bastante conteúdo e eventos para a comunidade brasileira de teste e qualidade. Para comemorar nosso aniversário, estamos modificando um pouco as plataformas que usamos para cada vez mais conseguir atingir os profissionais brasileiros trazendo discussões de qualidade e contribuindo para a comunidade.
 
 ## :movie_camera: Canais
 
