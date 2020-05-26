@@ -23,7 +23,7 @@
   <a href="https://medium.com/assertqualityassurance">📚Medium assert(QA)</a>
 </h3>
 
-## 🚀 Navegue
+## 🤖 Navegue
 
 - [O Agile Testers](#dart-o-agile-testers)
 - [Canais](#movie_camera-canais)
