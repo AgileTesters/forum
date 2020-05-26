@@ -28,6 +28,7 @@
 - [O Agile Testers](#dart-o-agile-testers)
 - [Canais](#movie_camera-canais)
 - [Código de conduta](#rotating_light-código-de-conduta)
+- [Vagas](#heart-vagas)
 - [Licença](#memo-licença)
 
 ## :dart: O Agile Testers
@@ -66,6 +67,10 @@ Por assédio entende-se sem limitação:
 * Contato físico inadequado ou atenção sexual indesejada.
 
 Você pode ver mais detalhes sobre nosso código de conduta [aqui](./codigo-de-conduta.md).
+
+## :heart: Vagas
+
+Nós apoiamos o [QA Brasil Vagas](https://github.com/qa-brasil/vagas) onde você encontra vagas de QA em todas as regiões do país.
 
 ## :memo: Licença
 
