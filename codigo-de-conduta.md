@@ -28,5 +28,3 @@ Se um participante se engajar em comportamento de assédio, os administradores p
 Se você for assediado, perceber que alguém está sendo assediado, ou tem outras preocupações, por favor aja para interceptar ou peça ajuda aos administradores. Estamos certos de que essa política ajudará a fazer do AT - Agile Testers um espaço mais acolhedor, inclusivo, e integrador para todos.
 
 *Este Código de Conduta foi adaptado a partir do código de conduta utilizado pela comunidade GTC - Grupo de Testes Carioca, que foi adaptado pelo evento LinguÁgil, que foi adaptado pelo evento Agile Trends, que foi adaptado a partir dos códigos de conduta utilizados pelo Ideias em Produção, adaptados a partir do Python Brasil 9, este por sua vez adaptados dos códigos de conduta utilizados pela Plone Foundation e pela PyCon US, e estão licenciados sob a Creative Commons Attribution-Share Alike 3.0 Unported.*
-
-###### ATC - Agile Testers Conference

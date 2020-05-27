@@ -27,6 +27,4 @@ If a participant engages in harassing behavior, administrators may take appropri
 
 If you are harassed, realize that someone is being harassed, or have other concerns, please act to intercept or ask for help from the administrators. We are confident that this policy will help make AT - Agile Testers a more welcoming, inclusive, and inclusive space for all.
 
-* This Code of Conduct was adapted from the code of conduct used by the GTC - Carioca Test Group community, which was adapted by the LinguÁgil event, which was adapted by the Agile Trends event, which was adapted from the codes of conduct used by the Ideas in Production, adapted from Python Brasil 9, which in turn are adapted from the codes of conduct used by the Plone Foundation and PyCon US, and are licensed under the Creative Commons Attribution-Share Alike 3.0 Unported.
-
-###### ATC - Agile Testers Conference
+*This Code of Conduct was adapted from the code of conduct used by the GTC - Carioca Test Group community, which was adapted by the LinguÁgil event, which was adapted by the Agile Trends event, which was adapted from the codes of conduct used by the Ideas in Production, adapted from Python Brasil 9, which in turn are adapted from the codes of conduct used by the Plone Foundation and PyCon US, and are licensed under the Creative Commons Attribution-Share Alike 3.0 Unported.*

@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/AgileTestersBR">
-    <img src=".github/logo.png" width="300" alt="Agile Testers">
+    <img src=".github/logo.png" width="150" alt="Agile Testers">
   </a>
 </p>
 <h1 align="center">Fórum</h1>
@@ -8,10 +8,10 @@
 
 <p align="center">
   <a href="https://github.com/AgileTestersBR/at-forum/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg" alt="Gatsby is released under the MIT license." />
+    <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg" alt="O fórum do AT está sob a licença MIT." />
   </a>
    <a href="https://github.com/AgileTestersBR/at-forum/issues">
-    <img src="https://img.shields.io/github/issues/AgileTestersBR/at-forum" alt="Our discussions" />
+    <img src="https://img.shields.io/github/issues/AgileTesters/forum" alt="Nossas discussões" />
   </a>
 </p>
 
@@ -66,7 +66,7 @@ Por assédio entende-se sem limitação:
 * Interrupções reiteradas de palestras, bate-papos, reuniões eletrônicas, reuniões físicas ou outros eventos;
 * Contato físico inadequado ou atenção sexual indesejada.
 
-Você pode ver mais detalhes sobre nosso código de conduta [aqui](./codigo-de-conduta.md).
+> Você pode ver mais detalhes sobre nosso código de conduta [aqui](./codigo-de-conduta.md).
 
 ## :heart: Vagas
 
@@ -74,4 +74,4 @@ Nós apoiamos o [QA Brasil Vagas](https://github.com/qa-brasil/vagas) onde você
 
 ## :memo: Licença
 
-Este projeto está sobre a [licença MIT](./LICENSE).
+Este projeto está sob a [licença MIT](./LICENSE).
