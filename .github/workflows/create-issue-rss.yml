@@ -1,0 +1,172 @@
+name: Criar issues via RSS
+
+on:
+  schedule:
+    - cron: "0 11 * * *"
+
+jobs:
+
+  AssertQA:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://medium.com/feed/assertqualityassurance"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "AssertQA,RSS"
+
+  KentDodds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://kentcdodds.com/blog/rss.xml"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "KentDodds,RSS"
+
+  RafaelaAzevedo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://azevedorafaela.wordpress.com/feed"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "RafaelaAzevedo,RSS"
+
+  CaboquinhoTester:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://caboquinhotester.wordpress.com/feed"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "CaboquinhoTester,RSS"
+
+  DivaDeUmaTester:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://patiaragon.wordpress.com/feed"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "DivãDeUmaTester,RSS"
+
+  CodeATest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "http://www.codeatest.com/feed"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "CodeATest,RSS"
+
+  PerdidoNoTeste:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://perdidonoteste.wordpress.com/feed"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "PerdidoNoTeste,RSS"
+
+  LisaCrispin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://lisacrispin.com/feed/"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "LisaCrispin,RSS"
+
+  JanetGregory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://janetgregory.ca/blog/feed"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "JanetGregory,RSS"
+
+  BarbaraCabral:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://barbaracabral.wordpress.com/feed"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "BarbaraCabral,RSS"
+
+  TalkingAboutTesting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://talkingabouttesting.com/feed"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "TalkingAboutTesting,RSS"
+
+  Vanilton:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "http://vanilton.net/blog/feed"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "Vanilton,RSS"
+
+  EvilTester:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "http://blog.eviltester.com/feeds/posts/default"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "EvilTester,Internacional,RSS"
+
+  Google:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "http://feeds.feedburner.com/blogspot/RLXA"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "Google,Internacional,RSS"
+
+  RafaelChiavegatto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "http://rafaelchiavegatto.com.br/rss"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "RafaelChiavegatto,RSS"
