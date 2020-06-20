@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/AgileTestersBR">
-    <img src=".github/new-logo.png" width="150" alt="Agile Testers">
+    <img src=".github/logo.png" width="300" alt="Agile Testers">
   </a>
 </p>
 <h1 align="center">Fórum</h1>
