@@ -171,6 +171,17 @@ jobs:
           lastTime: "25h"
           labels: "MartinFowler,RSS"
 
+  AngieJones:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://angiejones.tech/feed"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "AngieJones,RSS"
+
   RafaelChiavegatto:
     runs-on: ubuntu-latest
     steps:
