@@ -192,3 +192,14 @@ jobs:
           dry-run: "false"
           lastTime: "25h"
           labels: "RafaelChiavegatto,RSS"
+  
+  Beyondtest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://medium.com/feed/beyondtest"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "BeyondTest,RSS"
