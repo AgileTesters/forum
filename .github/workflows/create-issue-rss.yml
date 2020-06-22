@@ -160,6 +160,17 @@ jobs:
           lastTime: "25h"
           labels: "Google,Internacional,RSS"
 
+  MartinFowler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://martinfowler.com/feed.atom"
+          dry-run: "false"
+          lastTime: "25h"
+          labels: "MartinFowler,RSS"
+
   RafaelChiavegatto:
     runs-on: ubuntu-latest
     steps:
