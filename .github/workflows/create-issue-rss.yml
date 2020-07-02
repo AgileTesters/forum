@@ -13,7 +13,7 @@ jobs:
   AssertQA:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://medium.com/feed/assertqualityassurance"
@@ -24,7 +24,7 @@ jobs:
   KentDodds:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://kentcdodds.com/blog/rss.xml"
@@ -35,7 +35,7 @@ jobs:
   RafaelaAzevedo:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://azevedorafaela.wordpress.com/feed"
@@ -46,7 +46,7 @@ jobs:
   CaboquinhoTester:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://caboquinhotester.wordpress.com/feed"
@@ -57,7 +57,7 @@ jobs:
   DivaDeUmaTester:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://patiaragon.wordpress.com/feed"
@@ -68,7 +68,7 @@ jobs:
   CodeATest:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "http://www.codeatest.com/feed"
@@ -79,7 +79,7 @@ jobs:
   PerdidoNoTeste:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://perdidonoteste.wordpress.com/feed"
@@ -90,7 +90,7 @@ jobs:
   LisaCrispin:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://lisacrispin.com/feed/"
@@ -101,7 +101,7 @@ jobs:
   JanetGregory:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://janetgregory.ca/blog/feed"
@@ -112,7 +112,7 @@ jobs:
   BarbaraCabral:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://barbaracabral.wordpress.com/feed"
@@ -123,7 +123,7 @@ jobs:
   TalkingAboutTesting:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://talkingabouttesting.com/feed"
@@ -134,7 +134,7 @@ jobs:
   Vanilton:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "http://vanilton.net/blog/feed"
@@ -145,7 +145,7 @@ jobs:
   EvilTester:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "http://blog.eviltester.com/feeds/posts/default"
@@ -156,7 +156,7 @@ jobs:
   Google:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "http://feeds.feedburner.com/blogspot/RLXA"
@@ -167,7 +167,7 @@ jobs:
   MartinFowler:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://martinfowler.com/feed.atom"
@@ -178,7 +178,7 @@ jobs:
   AngieJones:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://angiejones.tech/feed"
@@ -189,7 +189,7 @@ jobs:
   RafaelChiavegatto:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "http://rafaelchiavegatto.com.br/rss"
@@ -200,7 +200,7 @@ jobs:
   Beyondtest:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://medium.com/feed/beyondtest"
@@ -211,7 +211,7 @@ jobs:
   TSPI:
     runs-on: ubuntu-latest
     steps:
-      - uses: guilhem/rss-issues-action@3
+      - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           feed: "https://medium.com/feed/revista-tspi"
