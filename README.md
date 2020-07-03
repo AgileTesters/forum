@@ -10,7 +10,7 @@
   <a href="https://github.com/AgileTestersBR/at-forum/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg" alt="O fórum do AT está sob a licença MIT." />
   </a>
-   <a href="https://github.com/AgileTestersBR/at-forum/issues">
+   <a href="https://github.com/AgileTesters/forum/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
     <img src="https://img.shields.io/github/issues/AgileTesters/forum" alt="Nossas discussões" />
   </a>
 </p>
