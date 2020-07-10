@@ -21,6 +21,8 @@
     <a href="https://anchor.fm/qansei">🎧Podcast QAnsei</a>
   <span> · </span>
   <a href="https://medium.com/assertqualityassurance">📚Medium assert(QA)</a>
+  <span> · </span>
+  <a href="http://mitystore.iluria.com/agile-testers-ct-2a888b">🛍 Parceria Mity (stickers e prints)</a>
 </h3>
 
 ## 🤖 Navegue
