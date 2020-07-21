@@ -218,3 +218,14 @@ jobs:
           characterLimit: ${{ env.CHARACTER_LIMIT }}
           lastTime: ${{ env.LAST_TIME }}
           labels: "TSPI,RSS"
+
+  BrunoPulis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: guilhem/rss-issues-action@0.2.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: "https://brunopulis.com/feed.xml"
+          characterLimit: ${{ env.CHARACTER_LIMIT }}
+          lastTime: ${{ env.LAST_TIME }}
+          labels: "BrunoPulis,Acessibilidade,RSS"
