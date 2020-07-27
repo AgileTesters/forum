@@ -7,7 +7,7 @@
 <p align="center">Discussões em formato de issues - Agile Testers</p>
 
 <p align="center">
-  <a href="https://github.com/AgileTestersBR/at-forum/blob/master/LICENSE">
+  <a href="https://github.com/AgileTesters/forum/blob/trunk/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg" alt="O fórum do AT está sob a licença MIT." />
   </a>
    <a href="https://github.com/AgileTesters/forum/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
