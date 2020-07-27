@@ -3,6 +3,7 @@ name: Criar issues via RSS
 on:
   schedule:
     - cron: "0 14 * * *"
+  workflow_dispatch:
 
 env:
   CHARACTER_LIMIT: "450"
