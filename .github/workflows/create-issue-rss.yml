@@ -142,13 +142,14 @@ jobs:
           lastTime: ${{ env.LAST_TIME }}
           labels: "Vanilton,RSS"
 
-  EvilTester:
+  
+  ilTester:
     runs-on: ubuntu-latest
     steps:
       - uses: guilhem/rss-issues-action@0.2.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "http://blog.eviltester.com/feeds/posts/default"
+          feed: "https://www.eviltester.com/index.xml"
           characterLimit: ${{ env.CHARACTER_LIMIT }}
           lastTime: ${{ env.LAST_TIME }}
           labels: "EvilTester,Internacional,RSS"
