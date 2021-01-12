@@ -131,18 +131,6 @@ jobs:
           characterLimit: ${{ env.CHARACTER_LIMIT }}
           lastTime: ${{ env.LAST_TIME }}
           labels: "TalkingAboutTesting,RSS"
-
-  Vanilton:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "http://vanilton.net/blog/feed"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "Vanilton,RSS"
-
   
   ilTester:
     runs-on: ubuntu-latest
