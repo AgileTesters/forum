@@ -1,221 +1,221 @@
-name: Criar issues via RSS
+# name: Criar issues via RSS
 
-on:
-  schedule:
-    - cron: "0 14 * * *"
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: "0 14 * * *"
+#   workflow_dispatch:
 
-env:
-  CHARACTER_LIMIT: "450"
-  LAST_TIME: "25h"
+# env:
+#   CHARACTER_LIMIT: "450"
+#   LAST_TIME: "25h"
 
-jobs:
+# jobs:
 
-  AssertQA:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://medium.com/feed/assertqualityassurance"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "AssertQA,RSS"
+#   AssertQA:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://medium.com/feed/assertqualityassurance"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "AssertQA,RSS"
 
-  KentDodds:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://kentcdodds.com/blog/rss.xml"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "KentDodds,RSS"
+#   KentDodds:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://kentcdodds.com/blog/rss.xml"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "KentDodds,RSS"
 
-  RafaelaAzevedo:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://azevedorafaela.wordpress.com/feed"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "RafaelaAzevedo,RSS"
+#   RafaelaAzevedo:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://azevedorafaela.wordpress.com/feed"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "RafaelaAzevedo,RSS"
 
-  CaboquinhoTester:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://caboquinhotester.wordpress.com/feed"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "CaboquinhoTester,RSS"
+#   CaboquinhoTester:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://caboquinhotester.wordpress.com/feed"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "CaboquinhoTester,RSS"
 
-  DivaDeUmaTester:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://patiaragon.wordpress.com/feed"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "DivãDeUmaTester,RSS"
+#   DivaDeUmaTester:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://patiaragon.wordpress.com/feed"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "DivãDeUmaTester,RSS"
 
-  CodeATest:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "http://www.codeatest.com/feed"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "CodeATest,RSS"
+#   CodeATest:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "http://www.codeatest.com/feed"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "CodeATest,RSS"
 
-  PerdidoNoTeste:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://perdidonoteste.wordpress.com/feed"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "PerdidoNoTeste,RSS"
+#   PerdidoNoTeste:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://perdidonoteste.wordpress.com/feed"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "PerdidoNoTeste,RSS"
 
-  LisaCrispin:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://lisacrispin.com/feed/"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "LisaCrispin,RSS"
+#   LisaCrispin:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://lisacrispin.com/feed/"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "LisaCrispin,RSS"
 
-  JanetGregory:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://janetgregory.ca/blog/feed"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "JanetGregory,RSS"
+#   JanetGregory:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://janetgregory.ca/blog/feed"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "JanetGregory,RSS"
 
-  BarbaraCabral:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://barbaracabral.wordpress.com/feed"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "BarbaraCabral,RSS"
+#   BarbaraCabral:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://barbaracabral.wordpress.com/feed"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "BarbaraCabral,RSS"
 
-  TalkingAboutTesting:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://talkingabouttesting.com/feed"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "TalkingAboutTesting,RSS"
+#   TalkingAboutTesting:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://talkingabouttesting.com/feed"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "TalkingAboutTesting,RSS"
   
-  ilTester:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://www.eviltester.com/index.xml"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "EvilTester,Internacional,RSS"
+#   ilTester:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://www.eviltester.com/index.xml"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "EvilTester,Internacional,RSS"
 
-  Google:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "http://feeds.feedburner.com/blogspot/RLXA"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "Google,Internacional,RSS"
+#   Google:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "http://feeds.feedburner.com/blogspot/RLXA"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "Google,Internacional,RSS"
 
-  MartinFowler:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://martinfowler.com/feed.atom"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "MartinFowler,RSS"
+#   MartinFowler:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://martinfowler.com/feed.atom"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "MartinFowler,RSS"
 
-  AngieJones:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://angiejones.tech/feed"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "AngieJones,RSS"
+#   AngieJones:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://angiejones.tech/feed"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "AngieJones,RSS"
 
-  RafaelChiavegatto:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "http://rafaelchiavegatto.com.br/rss"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "RafaelChiavegatto,RSS"
+#   RafaelChiavegatto:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "http://rafaelchiavegatto.com.br/rss"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "RafaelChiavegatto,RSS"
   
-  Beyondtest:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://medium.com/feed/beyondtest"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "BeyondTest,RSS"
+#   Beyondtest:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://medium.com/feed/beyondtest"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "BeyondTest,RSS"
 
-  TSPI:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://medium.com/feed/revista-tspi"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "TSPI,RSS"
+#   TSPI:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://medium.com/feed/revista-tspi"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "TSPI,RSS"
 
-  BrunoPulis:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: guilhem/rss-issues-action@0.2.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          feed: "https://brunopulis.com/feed.xml"
-          characterLimit: ${{ env.CHARACTER_LIMIT }}
-          lastTime: ${{ env.LAST_TIME }}
-          labels: "BrunoPulis,Acessibilidade,RSS"
+#   BrunoPulis:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: guilhem/rss-issues-action@0.2.0
+#         with:
+#           repo-token: ${{ secrets.GITHUB_TOKEN }}
+#           feed: "https://brunopulis.com/feed.xml"
+#           characterLimit: ${{ env.CHARACTER_LIMIT }}
+#           lastTime: ${{ env.LAST_TIME }}
+#           labels: "BrunoPulis,Acessibilidade,RSS"
